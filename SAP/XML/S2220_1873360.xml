@@ -1,0 +1,39 @@
+<eSocial xmlns="http://www.esocial.gov.br/schema/evt/evtMonit/v_S_01_01_00">
+    <evtMonit Id="ID1745442970000002023120305324276431">
+        <ideEvento>
+            <indRetif>1</indRetif>
+            <tpAmb>1</tpAmb>
+            <procEmi>1</procEmi>
+            <verProc>soc</verProc>
+        </ideEvento>
+        <ideEmpregador>
+            <tpInsc>1</tpInsc>
+            <nrInsc>74544297</nrInsc>
+        </ideEmpregador>
+        <ideVinculo>
+            <cpfTrab>01279692090</cpfTrab>
+            <matricula>1873360</matricula>
+        </ideVinculo>
+        <exMedOcup>
+            <tpExameOcup>1</tpExameOcup>
+            <aso>
+                <dtAso>2023-11-07</dtAso>
+                <exame>
+                    <dtExm>2023-11-07</dtExm>
+                    <procRealizado>0295</procRealizado>
+                    <ordExame>2</ordExame>
+                </exame>
+                <medico>
+                    <nmMed>MARCOS PAULO RAMALHO DE SOUSA</nmMed>
+                    <nrCRM>43726</nrCRM>
+                    <ufCRM>RS</ufCRM>
+                </medico>
+            </aso>
+            <respMonit>
+                <nmResp>Brunela Keiko Bueno Honda Naves</nmResp>
+                <nrCRM>155972</nrCRM>
+                <ufCRM>SP</ufCRM>
+            </respMonit>
+        </exMedOcup>
+    </evtMonit>
+</eSocial>
