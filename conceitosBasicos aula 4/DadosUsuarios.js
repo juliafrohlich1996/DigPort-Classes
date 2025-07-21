@@ -8,7 +8,11 @@ const sobrenome = "Miranda";
 const idade = 30;
 const peso = 84;
 const altura = 1.80;
-let anoAtual = 2010;
+let anoAtual = 2025;
 
 const imc = peso / (altura * altura);
 const anoNascimento = anoAtual - idade;
+
+console.log(`${nome} tem ${idade} anos, pesa ${peso}kg`);
+console.log(`Tem ${altura} de altura e seu IMC é de ${imc}`);
+console.log(`${nome.split(" ")[0].toLowerCase()} ${sobrenome.toLowerCase()} nasceu em ${anoNascimento}.`);

@@ -1,0 +1,32 @@
+//               01234567
+let umaString = "um texto"
+umaString[3]                            //Retorna o caractere na posição 3 (índice) → "t"
+umaString.charAt(3)                     //Mesmo efeito de umaString[3] → "t"
+umaString.charAt(4)                     //Retorna o caractere na posição 4 → "e"
+umaString.concat(" um", " texto", "")   //Concatena várias strings → "Um texto um texto"
+umaString.replace("Um", "outra")        //Substitui "Um" por "outra" → "outra texto"
+umaString.length                        //Retorna o comprimento da string → 8
+umaString.slice(0, 2)                   //Corta do índice 0 ao 2 (exclusivo) → "Um"
+umaString.slice(2, 4)                   //Corta do índice 2 ao 4 (exclusivo) → " t" (espaço + "t")
+ 
+//console.log(umaString[4])
+//console.log(umaString.charAt(3))
+//console.log(umaString.concat(" um", " outro"))
+//console.log(umaString.replace("um", "outro"))
+console.log(umaString.length)
+
+
+                //0123456789
+let umastring = "Javascript é incrível"
+umaString[5]
+umaString.charAt(5)
+
+//console.log(umaString[5])
+//console.log(umaString.charAt(5))
+//console.log(umaString.replace("incrível", "poderoso"))
+console.log(umaString.length)
+console.log(umaString.slice(10,21))
+console.log(umaString.concat(" Vamos aprender!")) //adiciona no final    
+
+
+
