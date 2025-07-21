@@ -16,7 +16,7 @@ umaString.slice(2, 4)                   //Corta do índice 2 ao 4 (exclusivo) �
 console.log(umaString.length)
 
 
-                //0123456789
+               //0123456789
 let umastring = "Javascript é incrível"
 umaString[5]
 umaString.charAt(5)
