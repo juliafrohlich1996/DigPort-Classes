@@ -1,0 +1,25 @@
+let numero1 = 1000;
+let numero2 = 5;
+let numero3 = 7;
+
+let maior = numero1;
+let menor = numero1;
+
+// Verificando o maior
+if (numero2 > maior) {
+    maior = numero2;
+}
+if (numero3 > maior) {
+    maior = numero3;
+}
+
+// Verificando o menor
+if (numero2 < menor) {
+    menor = numero2;
+}
+if (numero3 < menor) {
+    menor = numero3;
+}
+
+console.log("Maior numero", maior);
+console.log("Menor numero", menor);

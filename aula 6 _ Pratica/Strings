@@ -3,4 +3,3 @@ log idade = 28
 console.log(idade > 10);
 console.log(idade = 28);
 console.log(idade > 8);
-
