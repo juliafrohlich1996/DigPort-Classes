@@ -1,0 +1,5 @@
+// npm install prompt-sync
+
+const prompt = require("prompt-sync")();
+
+opcao = parteInt(prompt("Escolha uma opção: "));

@@ -1,0 +1,28 @@
+// códigos aqui
+
+const nomes = ["Ana", "Bruna", "Eva"];
+const sabores = ["chocolate", "morango", "pistache"];
+
+for (let i = 0; i < nomes.lenght; i++){
+    console.log("Nome: " + nomes[1] + "| Sabor favorito: " + Sabores[1]);
+}
+
+const alunas = [
+    {nome: "Ana", sorvete: "chocolate" },
+    {nome: "Bruna", sorvete: "creme" },
+    {nome: "Eva", sorvete: "pistache" },
+];
+
+for (const aluna of alunas) {
+    console.log("Nome: ${aluna.nome} | Sabor favorito: ${aluna.sorvete}");
+}
+
+const dados = "Ana, chocolete, Bruna, morango; Eva, pistache";
+
+const pares = dados.split(";");
+
+for (let i = 0; i < pares.lenght; i++) {
+    const partes = pares[1].split(",");
+
+    console.log("Nome: ${partes[0]} | Sabor favorito: ${partes[1]}");
+}

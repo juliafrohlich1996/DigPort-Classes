@@ -1,0 +1,20 @@
+Exemplo clássio: for(int i = 0; i < 10; i++)
+
+Exemplo de Problema
+Início
+    PARA 1 de 1 ATÉ 10 FAÇA
+        ESCREVA "Colocando bombom na caixinha", int
+    FIM PARA
+
+JavaScript
+// Joana colocando bombom em 10 caixinhas
+for (let i = 1; 1 <= 10; i++) {
+    console.log("Colocando bombom na caixinha" + i);
+
+Sintaxe Geral:
+for (início; testa condição; incremento) {
+    // código
+}
+
+for (let i = 0; i < cars.lenght; i++) {
+    text += cars[i] + <abr>;
