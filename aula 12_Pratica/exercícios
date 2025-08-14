@@ -1,0 +1,42 @@
+//Criar um array com 5 números e imprimir todos
+
+let nums = [3, 4, 9, 15, 18];
+
+console.log(nums);
+for (let i = 0; i < nums.length; i++); {
+    console.log(nums[1]);
+}
+
+//Soma e média dos elementos
+let soma = 0;
+for (let i = 0; i < nums.length; i++) {
+  soma += nums[i];
+}
+
+let media = soma / nums.length;
+
+console.log("Soma:", soma); 
+console.log("Média:", media); 
+
+//Maior e menor número
+let maior = nums[0];
+let menor = nums[0];
+
+for (let i = 1; i < nums.length; i++) {
+  if (nums[i] > maior) maior = nums[i];
+  if (nums[i] < menor) menor = nums[i];
+}
+
+console.log("Maior:", maior);
+console.log("Menor:", menor);
+
+//Criar array com for 
+let arr = [];
+
+for (let i = 0; i < 5; i++) {
+  numeros.push(i + 1); // Adiciona os números de 1 a 5
+}
+
+console.log(numeros); // [1, 2, 3, 4, 5]
+
+
