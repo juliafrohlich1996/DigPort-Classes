@@ -1,0 +1,11 @@
+let programmingLanguagens = ["JavaScript", "Python", "Java"];
+
+console.log(programmingLanguagens [0]); //Output: JavaScript
+console.log(programmingLanguagens [1]); //Output: Python
+console.log(programmingLanguagens [2]); //Output: Java
+
+//métodos
+programmingLanguagens[1] = "TypeScript";
+programmingLanguagens.push("Go");
+
+console.log(programmingLanguagens);
