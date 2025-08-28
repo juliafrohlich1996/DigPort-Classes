@@ -1,0 +1,11 @@
+// Passo 1: Abrir o armário
+console.log("Abrindo o armário");
+
+// Passo 2: Ver o clima no celular
+let clima = "frio"; // ou "quente"
+
+if (clima == "frio") {
+    console.log("Escolher casaco e calça");
+}else{
+    console.log("Escolher camiseta e shorts");
+}
