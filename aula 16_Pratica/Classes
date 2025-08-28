@@ -1,0 +1,12 @@
+class Pessoa {
+    construction(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+    falar() {
+        console.log('$(this.nome) está falando.');
+    }
+}
+
+const taina = new Pessoa("Júlia", 28);
+julia.falar();

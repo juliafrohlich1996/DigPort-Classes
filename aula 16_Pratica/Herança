@@ -1,0 +1,15 @@
+class Pessoa {
+    andar() {
+        console.log("A pessoa está andando.");
+    }
+}
+
+class Estudante extends Pessoa {
+    estudar() {
+        console.log("O estudante está estudando.");
+    }
+}
+
+const aluno = new Estudante();
+aluno.andar();
+aluno.estudar();

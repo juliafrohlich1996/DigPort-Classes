@@ -1,0 +1,8 @@
+const celular = {
+    marca: "Samsung",
+    modelo: "S22",
+    cor: "preto",
+    ligar: function() {
+        console.log("O celular está ligado");
+    }
+};

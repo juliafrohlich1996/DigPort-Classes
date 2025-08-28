@@ -1,0 +1,14 @@
+class ContaBancaria {
+    #saldo = 0;
+
+    depositar(valor) {
+        this.#saldo += valor;
+    }
+    verSaldo() {
+        console.log('Saldo: R$ ${this.saldo}');
+    }
+}
+
+const conta = new ContaBancaria();
+conta.depositar(100);
+conta.verSaldo();
