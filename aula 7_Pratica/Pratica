@@ -1,0 +1,8 @@
+INÍCIO 
+    DEFINIR salarioPorHora COMO 30
+    DEFINIR horasTrabalhadas COMO 160
+
+    DEFINIR salarioFinal COMO salarioPorHora * horasTrabalhadas
+
+    ESCREVER salarioFinal 
+FIM

@@ -1,0 +1,4 @@
+let estaChovendo = true;
+let possuiGuardaChuva = false;
+let vaiSair = ! estaChovendo && possuiGuardaChuva;
+console.log(vaiSair);

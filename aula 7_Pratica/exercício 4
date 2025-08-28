@@ -1,0 +1,3 @@
+let quantidadeItens = 22;
+let ehPar = quantidadeItens % 2 === 0;
+console.log(ehPar);
