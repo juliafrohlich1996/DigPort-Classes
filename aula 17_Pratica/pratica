@@ -1,0 +1,41 @@
+//Discount Function
+function discount10(price) {
+  return price * 0,9;
+}
+
+//Introduction to Classes
+class Product {
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
+  }
+
+  describe() {
+    return 'Product: ${this.name}, Price: $${this.price}';
+      }
+}
+
+//cart cass + methods
+class Cart {
+  products = [];
+
+  add(product) {
+    this.products.push(product);
+  }
+
+  total() {
+    return this.products.reduce((sum, product) => sum + product.price, 0);
+  }
+
+  showProducts() {
+    return this.products.map((p) => p.describe()).join("\n");
+  }
+
+  applyDiscount() {
+    this.products.forEach((p) => {
+      p.price = discount10(p.price);
+     });
+  }
+}
+
+
